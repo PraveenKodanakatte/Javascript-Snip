@@ -1,0 +1,22 @@
+// Strings
+
+const Name = "Praveen";
+const age = 24;
+const college = "jnnce";
+
+// make a sentence
+
+const sentence = `i am ${Name}, my age is ${age}and my college is ${college} `; // also called template string
+console.log(sentence);
+
+const list = "praveen \n pramukh ";
+console.log(list);
+
+const list1 = "praveen \n\ pramukh ";
+console.log(list1);
+
+const list2 = `praveen 
+pramukh
+pks 
+psjs`;
+console.log(list2);
